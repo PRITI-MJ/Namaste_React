@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+    </div>
+    <h1>React Top of root </h1>
+    <div id="root1">
+        here anything inside the div tag will be replaced by react element
+    </div>
+    <h1>React Bottom of root </h1>
+
+<!-- so here the h1 tags below and above the div will be visible in the browser, 
+it is because react is rendering only a small portion that is "div", 
+this is the reason react is a library, so that it can work on a small portion of the code.
+ -->
+
+
+
+     
+    <!-- <script>
+       const heading =  document.createElement("h1");
+       heading.innerHTML = "hello world from javascript";
+       
+       const root = document.getElementById("root");
+       root.appendChild(heading);
+    </script> -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="./App.js"> </script>
+</body>
+</html>
