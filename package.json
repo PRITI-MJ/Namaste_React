@@ -1,0 +1,32 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This is namaste react",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRITI-MJ/Namaste_React.git"
+  },
+  "keywords": [],
+  "author": "Priti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRITI-MJ/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/PRITI-MJ/Namaste_React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }, 
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browerslist": [
+    "last 2 Chrome versions",
+    "last 2 Edge versions"
+  ]
+}
